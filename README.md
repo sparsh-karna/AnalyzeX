@@ -1,8 +1,8 @@
-# AnalyseX: Research Paper Classification System
+# AnalyzeX: Research Paper Classification System
 
 ## Project Overview
 
-AnalyseX is a data science project that develops a machine learning classifier to predict whether research papers are publishable based on various textual and structural features. The classifier analyzes academic papers and extracts features such as readability metrics, table/figure densities, citation patterns, and technical content characteristics to make publication quality predictions.
+AnalyzeX is a data science project that develops a machine learning classifier to predict whether research papers are publishable based on various textual and structural features. The classifier analyzes academic papers and extracts features such as readability metrics, table/figure densities, citation patterns, and technical content characteristics to make publication quality predictions.
 
 ## Dataset
 
@@ -98,7 +98,7 @@ Non-Publishable       0.94      0.95      0.94        78
 ## Project Structure
 
 ```
-AnalyseX/
+AnalyzeX/
 ├── README.md                          # This file
 ├── main.ipynb                         # Main analysis notebook
 ├── degrade.ipynb                      # PDF degradation preprocessing
@@ -183,11 +183,11 @@ AnalyseX/
 
 ## Results Summary
 
-AnalyseX successfully demonstrates that research paper publication quality can be predicted with **94.4% accuracy** using a combination of readability metrics, structural features, and content quality indicators. The model provides valuable insights into what makes a paper publishable, with visual content balance and table integration being the strongest predictors of publication success.
+AnalyzeX successfully demonstrates that research paper publication quality can be predicted with **94.4% accuracy** using a combination of readability metrics, structural features, and content quality indicators. The model provides valuable insights into what makes a paper publishable, with visual content balance and table integration being the strongest predictors of publication success.
 
 ---
 
-**Project**: AnalyseX - Research Paper Classification System  
+**Project**: AnalyzeX - Research Paper Classification System  
 **Date**: June 2025  
 **Model**: XGBoost Classifier  
 **Performance**: 94.4% Test Accuracy
