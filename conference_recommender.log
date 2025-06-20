@@ -1,0 +1,1446 @@
+2025-04-21 21:48:42,241 - INFO - Initializing sentence transformer model...
+2025-04-21 21:48:42,434 - INFO - Use pytorch device_name: mps
+2025-04-21 21:48:42,435 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 21:48:46,223 - INFO - Setting up ChromaDB...
+2025-04-21 21:48:46,272 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-21 21:48:47,077 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 21:48:50,473 - INFO - Created new collection: papers_collection
+2025-04-21 21:48:50,476 - INFO - Initialization complete
+2025-04-21 21:48:50,477 - INFO - Starting database setup...
+2025-04-21 21:48:50,480 - INFO - Processing papers from neurips
+2025-04-21 21:48:53,162 - WARNING - Ignoring wrong pointing object 49 0 (offset 0)
+2025-04-21 21:48:53,163 - WARNING - Ignoring wrong pointing object 96 0 (offset 0)
+2025-04-21 21:48:53,163 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 21:48:53,766 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 21:48:53,766 - WARNING - Ignoring wrong pointing object 139 0 (offset 0)
+2025-04-21 21:48:53,766 - WARNING - Ignoring wrong pointing object 168 0 (offset 0)
+2025-04-21 21:49:08,332 - WARNING - Skipping NeurIPS-2022-predictive-coding-beyond-gaussian-distributions-Paper-Conference.pdf - no text extracted
+2025-04-21 21:49:12,182 - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-04-21 21:49:12,182 - WARNING - Ignoring wrong pointing object 44 0 (offset 0)
+2025-04-21 21:49:12,183 - WARNING - Ignoring wrong pointing object 111 0 (offset 0)
+2025-04-21 21:49:12,183 - WARNING - Ignoring wrong pointing object 113 0 (offset 0)
+2025-04-21 21:49:13,120 - ERROR - Error processing NeurIPS-2022-pre-trained-adversarial-perturbations-Paper-Conference.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 21:49:13,123 - WARNING - Ignoring wrong pointing object 81 0 (offset 0)
+2025-04-21 21:49:13,124 - WARNING - Ignoring wrong pointing object 183 0 (offset 0)
+2025-04-21 21:49:14,452 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 21:49:14,453 - WARNING - Ignoring wrong pointing object 59 0 (offset 0)
+2025-04-21 21:49:14,453 - WARNING - Ignoring wrong pointing object 62 0 (offset 0)
+2025-04-21 21:49:14,453 - WARNING - Ignoring wrong pointing object 158 0 (offset 0)
+2025-04-21 21:49:15,209 - WARNING - Ignoring wrong pointing object 55 0 (offset 0)
+2025-04-21 21:49:15,210 - WARNING - Ignoring wrong pointing object 79 0 (offset 0)
+2025-04-21 21:49:15,210 - WARNING - Ignoring wrong pointing object 160 0 (offset 0)
+2025-04-21 21:49:15,471 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 21:49:15,472 - WARNING - Ignoring wrong pointing object 33 0 (offset 0)
+2025-04-21 21:49:15,472 - WARNING - Ignoring wrong pointing object 102 0 (offset 0)
+2025-04-21 21:49:15,472 - WARNING - Ignoring wrong pointing object 173 0 (offset 0)
+2025-04-21 21:49:15,473 - WARNING - Ignoring wrong pointing object 181 0 (offset 0)
+2025-04-21 21:49:15,473 - WARNING - Ignoring wrong pointing object 215 0 (offset 0)
+2025-04-21 21:49:15,473 - WARNING - Ignoring wrong pointing object 283 0 (offset 0)
+2025-04-21 21:49:15,473 - WARNING - Ignoring wrong pointing object 361 0 (offset 0)
+2025-04-21 21:49:16,579 - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-04-21 21:49:16,579 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 21:49:16,579 - WARNING - Ignoring wrong pointing object 25 0 (offset 0)
+2025-04-21 21:49:16,580 - WARNING - Ignoring wrong pointing object 29 0 (offset 0)
+2025-04-21 21:49:19,938 - WARNING - Ignoring wrong pointing object 124 0 (offset 0)
+2025-04-21 21:49:19,940 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 21:49:19,940 - WARNING - Ignoring wrong pointing object 172 0 (offset 0)
+2025-04-21 21:49:20,526 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 21:49:20,526 - WARNING - Ignoring wrong pointing object 34 0 (offset 0)
+2025-04-21 21:49:20,527 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 21:49:20,527 - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2025-04-21 21:49:26,584 - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2025-04-21 21:49:26,585 - WARNING - Ignoring wrong pointing object 63 0 (offset 0)
+2025-04-21 21:49:26,585 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 21:49:26,585 - WARNING - Ignoring wrong pointing object 122 0 (offset 0)
+2025-04-21 21:49:34,179 - WARNING - Ignoring wrong pointing object 179 0 (offset 0)
+2025-04-21 21:49:34,180 - WARNING - Ignoring wrong pointing object 187 0 (offset 0)
+2025-04-21 21:49:34,180 - WARNING - Ignoring wrong pointing object 221 0 (offset 0)
+2025-04-21 21:49:34,181 - WARNING - Ignoring wrong pointing object 275 0 (offset 0)
+2025-04-21 21:49:36,918 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/neurips/NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 21:49:36,918 - WARNING - Skipping NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf - no text extracted
+2025-04-21 21:49:37,352 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 21:49:37,353 - WARNING - Ignoring wrong pointing object 83 0 (offset 0)
+2025-04-21 21:49:37,353 - WARNING - Ignoring wrong pointing object 90 0 (offset 0)
+2025-04-21 21:49:37,353 - WARNING - Ignoring wrong pointing object 162 0 (offset 0)
+2025-04-21 21:49:37,354 - WARNING - Ignoring wrong pointing object 281 0 (offset 0)
+2025-04-21 21:49:37,354 - WARNING - Ignoring wrong pointing object 284 0 (offset 0)
+2025-04-21 21:49:37,354 - WARNING - Ignoring wrong pointing object 321 0 (offset 0)
+2025-04-21 21:49:37,355 - WARNING - Ignoring wrong pointing object 329 0 (offset 0)
+2025-04-21 21:49:37,355 - WARNING - Ignoring wrong pointing object 333 0 (offset 0)
+2025-04-21 21:49:37,355 - WARNING - Ignoring wrong pointing object 341 0 (offset 0)
+2025-04-21 21:49:37,355 - WARNING - Ignoring wrong pointing object 344 0 (offset 0)
+2025-04-21 21:49:37,356 - WARNING - Ignoring wrong pointing object 347 0 (offset 0)
+2025-04-21 21:49:37,356 - WARNING - Ignoring wrong pointing object 350 0 (offset 0)
+2025-04-21 21:49:37,986 - WARNING - Ignoring wrong pointing object 92 0 (offset 0)
+2025-04-21 21:49:37,986 - WARNING - Ignoring wrong pointing object 143 0 (offset 0)
+2025-04-21 21:49:52,445 - WARNING - Ignoring wrong pointing object 18 0 (offset 0)
+2025-04-21 21:49:52,445 - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-04-21 21:49:53,349 - WARNING - Ignoring wrong pointing object 56 0 (offset 0)
+2025-04-21 21:49:53,349 - WARNING - Ignoring wrong pointing object 84 0 (offset 0)
+2025-04-21 21:49:53,349 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 21:49:53,349 - WARNING - Ignoring wrong pointing object 120 0 (offset 0)
+2025-04-21 21:49:53,350 - WARNING - Ignoring wrong pointing object 320 0 (offset 0)
+2025-04-21 21:49:53,350 - WARNING - Ignoring wrong pointing object 330 0 (offset 0)
+2025-04-21 21:49:53,351 - WARNING - Ignoring wrong pointing object 368 0 (offset 0)
+2025-04-21 21:49:53,352 - WARNING - Ignoring wrong pointing object 699 0 (offset 0)
+2025-04-21 21:49:53,352 - WARNING - Ignoring wrong pointing object 768 0 (offset 0)
+2025-04-21 21:49:53,352 - WARNING - Ignoring wrong pointing object 770 0 (offset 0)
+2025-04-21 21:50:00,554 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 21:50:00,555 - WARNING - Ignoring wrong pointing object 137 0 (offset 0)
+2025-04-21 21:50:00,555 - WARNING - Ignoring wrong pointing object 141 0 (offset 0)
+2025-04-21 21:50:00,555 - WARNING - Ignoring wrong pointing object 159 0 (offset 0)
+2025-04-21 21:50:00,556 - WARNING - Ignoring wrong pointing object 220 0 (offset 0)
+2025-04-21 21:50:00,556 - WARNING - Ignoring wrong pointing object 223 0 (offset 0)
+2025-04-21 21:50:00,556 - WARNING - Ignoring wrong pointing object 225 0 (offset 0)
+2025-04-21 21:50:02,645 - WARNING - Ignoring wrong pointing object 37 0 (offset 0)
+2025-04-21 21:50:02,646 - WARNING - Ignoring wrong pointing object 46 0 (offset 0)
+2025-04-21 21:50:05,380 - INFO - Processing papers from emnlp
+2025-04-21 21:50:58,115 - INFO - Processing papers from cvpr
+2025-04-21 21:51:58,312 - INFO - Processing papers from TMLR
+2025-04-21 21:52:04,897 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/TMLR/3542_ALTA_Compiler_Based_Analy.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 21:52:04,899 - WARNING - Skipping 3542_ALTA_Compiler_Based_Analy.pdf - no text extracted
+2025-04-21 21:53:12,238 - ERROR - Error processing 3706_Long_Short_Term_Imputer_H.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 21:53:49,773 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 21:53:49,775 - WARNING - Ignoring wrong pointing object 277 0 (offset 0)
+2025-04-21 21:53:49,775 - WARNING - Ignoring wrong pointing object 288 0 (offset 0)
+2025-04-21 21:53:49,775 - WARNING - Ignoring wrong pointing object 298 0 (offset 0)
+2025-04-21 21:54:39,927 - INFO - Processing papers from non-publishable
+2025-04-21 21:56:00,694 - WARNING - Multiple definitions in dictionary at byte 0xc217 for key /Type
+2025-04-21 21:56:52,751 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_215.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 21:56:52,754 - WARNING - Skipping paper_215.pdf - no text extracted
+2025-04-21 21:56:53,186 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_214.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 21:56:53,186 - WARNING - Skipping paper_214.pdf - no text extracted
+2025-04-21 21:57:15,643 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_231.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 21:57:15,644 - WARNING - Skipping paper_231.pdf - no text extracted
+2025-04-21 22:00:58,910 - INFO - Database setup complete
+2025-04-21 22:00:58,911 - INFO - Database Statistics:
+2025-04-21 22:00:58,912 - INFO - Total papers processed: 810
+2025-04-21 22:00:58,912 - INFO - Number of conferences: 5
+2025-04-21 22:00:58,912 - INFO - Publishable papers: 418
+2025-04-21 22:00:58,912 - INFO - Non-publishable papers: 392
+2025-04-21 22:00:58,912 - INFO - Conferences: cvpr, neurips, non-publishable, TMLR, emnlp
+2025-04-21 22:05:14,901 - INFO - Successfully added new paper to database with conference: cvpr
+2025-04-21 22:19:24,047 - INFO - Tester initialized
+2025-04-21 22:19:24,049 - INFO - Preparing test set...
+2025-04-21 22:19:24,055 - INFO - Prepared test set with 84 papers
+2025-04-21 22:19:24,055 - INFO - Setting up recommender...
+2025-04-21 22:19:24,056 - INFO - Initializing sentence transformer model...
+2025-04-21 22:19:24,060 - INFO - Use pytorch device_name: mps
+2025-04-21 22:19:24,060 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 22:19:29,188 - INFO - Setting up ChromaDB...
+2025-04-21 22:19:29,278 - INFO - Created new collection: test_papers_collection
+2025-04-21 22:19:29,288 - INFO - Initialization complete
+2025-04-21 22:19:29,289 - INFO - Processing papers from TMLR
+2025-04-21 22:19:59,823 - INFO - Tester initialized
+2025-04-21 22:19:59,827 - INFO - Preparing test set...
+2025-04-21 22:19:59,840 - INFO - Prepared test set with 84 papers
+2025-04-21 22:19:59,845 - INFO - Setting up recommender...
+2025-04-21 22:19:59,852 - INFO - Initializing sentence transformer model...
+2025-04-21 22:19:59,874 - INFO - Use pytorch device_name: mps
+2025-04-21 22:19:59,877 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 22:20:03,440 - INFO - Setting up ChromaDB...
+2025-04-21 22:20:03,496 - INFO - Retrieved existing collection: test_papers_collection
+2025-04-21 22:20:03,502 - INFO - Initialization complete
+2025-04-21 22:20:03,502 - INFO - Processing papers from TMLR
+2025-04-21 22:20:10,247 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/TMLR/3542_ALTA_Compiler_Based_Analy.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:20:10,253 - WARNING - Skipping 3542_ALTA_Compiler_Based_Analy.pdf - no text extracted
+2025-04-21 22:21:15,122 - ERROR - Error processing 3706_Long_Short_Term_Imputer_H.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 22:21:51,038 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 22:21:51,041 - WARNING - Ignoring wrong pointing object 277 0 (offset 0)
+2025-04-21 22:21:51,041 - WARNING - Ignoring wrong pointing object 288 0 (offset 0)
+2025-04-21 22:21:51,042 - WARNING - Ignoring wrong pointing object 298 0 (offset 0)
+2025-04-21 22:22:39,994 - INFO - Processing papers from cvpr
+2025-04-21 22:23:44,158 - INFO - Processing papers from emnlp
+2025-04-21 22:24:49,104 - INFO - Processing papers from neurips
+2025-04-21 22:24:50,775 - WARNING - Ignoring wrong pointing object 49 0 (offset 0)
+2025-04-21 22:24:50,776 - WARNING - Ignoring wrong pointing object 96 0 (offset 0)
+2025-04-21 22:24:50,776 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 22:24:52,246 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 22:24:52,247 - WARNING - Ignoring wrong pointing object 139 0 (offset 0)
+2025-04-21 22:24:52,247 - WARNING - Ignoring wrong pointing object 168 0 (offset 0)
+2025-04-21 22:25:09,942 - WARNING - Skipping NeurIPS-2022-predictive-coding-beyond-gaussian-distributions-Paper-Conference.pdf - no text extracted
+2025-04-21 22:25:15,779 - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-04-21 22:25:15,782 - WARNING - Ignoring wrong pointing object 44 0 (offset 0)
+2025-04-21 22:25:15,782 - WARNING - Ignoring wrong pointing object 111 0 (offset 0)
+2025-04-21 22:25:15,782 - WARNING - Ignoring wrong pointing object 113 0 (offset 0)
+2025-04-21 22:25:17,776 - ERROR - Error processing NeurIPS-2022-pre-trained-adversarial-perturbations-Paper-Conference.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 22:25:17,778 - WARNING - Ignoring wrong pointing object 81 0 (offset 0)
+2025-04-21 22:25:17,778 - WARNING - Ignoring wrong pointing object 183 0 (offset 0)
+2025-04-21 22:25:19,695 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 22:25:19,695 - WARNING - Ignoring wrong pointing object 59 0 (offset 0)
+2025-04-21 22:25:19,695 - WARNING - Ignoring wrong pointing object 62 0 (offset 0)
+2025-04-21 22:25:19,696 - WARNING - Ignoring wrong pointing object 158 0 (offset 0)
+2025-04-21 22:25:21,014 - WARNING - Ignoring wrong pointing object 55 0 (offset 0)
+2025-04-21 22:25:21,014 - WARNING - Ignoring wrong pointing object 79 0 (offset 0)
+2025-04-21 22:25:21,015 - WARNING - Ignoring wrong pointing object 160 0 (offset 0)
+2025-04-21 22:25:21,525 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 22:25:21,525 - WARNING - Ignoring wrong pointing object 33 0 (offset 0)
+2025-04-21 22:25:21,526 - WARNING - Ignoring wrong pointing object 102 0 (offset 0)
+2025-04-21 22:25:21,526 - WARNING - Ignoring wrong pointing object 173 0 (offset 0)
+2025-04-21 22:25:21,526 - WARNING - Ignoring wrong pointing object 181 0 (offset 0)
+2025-04-21 22:25:21,527 - WARNING - Ignoring wrong pointing object 215 0 (offset 0)
+2025-04-21 22:25:21,527 - WARNING - Ignoring wrong pointing object 283 0 (offset 0)
+2025-04-21 22:25:21,527 - WARNING - Ignoring wrong pointing object 361 0 (offset 0)
+2025-04-21 22:25:23,779 - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-04-21 22:25:23,780 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 22:25:23,781 - WARNING - Ignoring wrong pointing object 25 0 (offset 0)
+2025-04-21 22:25:23,781 - WARNING - Ignoring wrong pointing object 29 0 (offset 0)
+2025-04-21 22:25:29,599 - WARNING - Ignoring wrong pointing object 124 0 (offset 0)
+2025-04-21 22:25:29,600 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 22:25:29,600 - WARNING - Ignoring wrong pointing object 172 0 (offset 0)
+2025-04-21 22:25:30,625 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 22:25:30,626 - WARNING - Ignoring wrong pointing object 34 0 (offset 0)
+2025-04-21 22:25:30,626 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 22:25:30,626 - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2025-04-21 22:25:39,819 - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2025-04-21 22:25:39,819 - WARNING - Ignoring wrong pointing object 63 0 (offset 0)
+2025-04-21 22:25:39,819 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 22:25:39,820 - WARNING - Ignoring wrong pointing object 122 0 (offset 0)
+2025-04-21 22:25:49,865 - WARNING - Ignoring wrong pointing object 179 0 (offset 0)
+2025-04-21 22:25:49,866 - WARNING - Ignoring wrong pointing object 187 0 (offset 0)
+2025-04-21 22:25:49,866 - WARNING - Ignoring wrong pointing object 221 0 (offset 0)
+2025-04-21 22:25:49,867 - WARNING - Ignoring wrong pointing object 275 0 (offset 0)
+2025-04-21 22:25:53,846 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/neurips/NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:25:53,847 - WARNING - Skipping NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf - no text extracted
+2025-04-21 22:25:54,398 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 22:25:54,399 - WARNING - Ignoring wrong pointing object 83 0 (offset 0)
+2025-04-21 22:25:54,399 - WARNING - Ignoring wrong pointing object 90 0 (offset 0)
+2025-04-21 22:25:54,399 - WARNING - Ignoring wrong pointing object 162 0 (offset 0)
+2025-04-21 22:25:54,399 - WARNING - Ignoring wrong pointing object 281 0 (offset 0)
+2025-04-21 22:25:54,400 - WARNING - Ignoring wrong pointing object 284 0 (offset 0)
+2025-04-21 22:25:54,400 - WARNING - Ignoring wrong pointing object 321 0 (offset 0)
+2025-04-21 22:25:54,400 - WARNING - Ignoring wrong pointing object 329 0 (offset 0)
+2025-04-21 22:25:54,400 - WARNING - Ignoring wrong pointing object 333 0 (offset 0)
+2025-04-21 22:25:54,401 - WARNING - Ignoring wrong pointing object 341 0 (offset 0)
+2025-04-21 22:25:54,401 - WARNING - Ignoring wrong pointing object 344 0 (offset 0)
+2025-04-21 22:25:54,401 - WARNING - Ignoring wrong pointing object 347 0 (offset 0)
+2025-04-21 22:25:54,401 - WARNING - Ignoring wrong pointing object 350 0 (offset 0)
+2025-04-21 22:25:55,479 - WARNING - Ignoring wrong pointing object 92 0 (offset 0)
+2025-04-21 22:25:55,480 - WARNING - Ignoring wrong pointing object 143 0 (offset 0)
+2025-04-21 22:26:14,480 - WARNING - Ignoring wrong pointing object 18 0 (offset 0)
+2025-04-21 22:26:14,483 - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-04-21 22:26:15,947 - WARNING - Ignoring wrong pointing object 56 0 (offset 0)
+2025-04-21 22:26:15,948 - WARNING - Ignoring wrong pointing object 84 0 (offset 0)
+2025-04-21 22:26:15,948 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 22:26:15,948 - WARNING - Ignoring wrong pointing object 120 0 (offset 0)
+2025-04-21 22:26:15,949 - WARNING - Ignoring wrong pointing object 320 0 (offset 0)
+2025-04-21 22:26:15,949 - WARNING - Ignoring wrong pointing object 330 0 (offset 0)
+2025-04-21 22:26:15,949 - WARNING - Ignoring wrong pointing object 368 0 (offset 0)
+2025-04-21 22:26:15,950 - WARNING - Ignoring wrong pointing object 699 0 (offset 0)
+2025-04-21 22:26:15,950 - WARNING - Ignoring wrong pointing object 768 0 (offset 0)
+2025-04-21 22:26:15,951 - WARNING - Ignoring wrong pointing object 770 0 (offset 0)
+2025-04-21 22:26:24,202 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 22:26:24,203 - WARNING - Ignoring wrong pointing object 137 0 (offset 0)
+2025-04-21 22:26:24,203 - WARNING - Ignoring wrong pointing object 141 0 (offset 0)
+2025-04-21 22:26:24,204 - WARNING - Ignoring wrong pointing object 159 0 (offset 0)
+2025-04-21 22:26:24,204 - WARNING - Ignoring wrong pointing object 220 0 (offset 0)
+2025-04-21 22:26:24,204 - WARNING - Ignoring wrong pointing object 223 0 (offset 0)
+2025-04-21 22:26:24,204 - WARNING - Ignoring wrong pointing object 225 0 (offset 0)
+2025-04-21 22:26:26,631 - WARNING - Ignoring wrong pointing object 37 0 (offset 0)
+2025-04-21 22:26:26,631 - WARNING - Ignoring wrong pointing object 46 0 (offset 0)
+2025-04-21 22:26:30,513 - INFO - Processing papers from non-publishable
+2025-04-21 22:27:57,450 - WARNING - Multiple definitions in dictionary at byte 0xc217 for key /Type
+2025-04-21 22:28:54,471 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_215.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:28:54,473 - WARNING - Skipping paper_215.pdf - no text extracted
+2025-04-21 22:28:54,667 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_214.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:28:54,667 - WARNING - Skipping paper_214.pdf - no text extracted
+2025-04-21 22:29:17,162 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_231.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:29:17,163 - WARNING - Skipping paper_231.pdf - no text extracted
+2025-04-21 22:33:02,872 - INFO - Database Statistics:
+2025-04-21 22:33:02,874 - INFO - Total papers processed: 810
+2025-04-21 22:33:02,874 - INFO - Number of conferences: 5
+2025-04-21 22:33:02,874 - INFO - Publishable papers: 418
+2025-04-21 22:33:02,875 - INFO - Non-publishable papers: 392
+2025-04-21 22:33:02,875 - INFO - Conferences: cvpr, neurips, non-publishable, TMLR, emnlp
+2025-04-21 22:33:02,875 - INFO - Recommender setup complete
+2025-04-21 22:33:02,875 - INFO - Starting evaluation...
+2025-04-21 22:33:05,813 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:06,959 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:08,521 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:10,143 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:11,481 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:12,637 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:13,527 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:15,170 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:16,338 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:17,749 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:20,807 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:22,596 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:24,267 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:25,174 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:26,500 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:28,371 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:30,147 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:30,915 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:33,181 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:35,364 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:36,293 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:37,311 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:38,226 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:39,484 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:40,040 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:40,634 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:41,208 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:41,945 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:42,560 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:43,625 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:44,370 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:44,969 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:45,636 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:46,807 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:47,414 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:49,015 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:49,621 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:50,241 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:50,873 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:51,887 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:52,666 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:53,299 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:54,315 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:55,001 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:55,553 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:56,241 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:57,260 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:57,877 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:59,245 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:33:59,897 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:00,586 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:01,247 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:01,865 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:02,962 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:03,979 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:04,809 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:05,737 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:06,966 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:07,532 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:08,340 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:09,232 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:10,333 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:10,842 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:11,834 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:12,439 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:12,450 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 22:34:12,453 - WARNING - Ignoring wrong pointing object 139 0 (offset 0)
+2025-04-21 22:34:12,457 - WARNING - Ignoring wrong pointing object 168 0 (offset 0)
+2025-04-21 22:34:13,116 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:14,355 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:14,366 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 22:34:14,368 - WARNING - Ignoring wrong pointing object 59 0 (offset 0)
+2025-04-21 22:34:14,369 - WARNING - Ignoring wrong pointing object 62 0 (offset 0)
+2025-04-21 22:34:14,370 - WARNING - Ignoring wrong pointing object 158 0 (offset 0)
+2025-04-21 22:34:14,950 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:15,604 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:16,286 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:16,967 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:30,626 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:31,220 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:31,858 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:31,868 - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2025-04-21 22:34:31,870 - WARNING - Ignoring wrong pointing object 63 0 (offset 0)
+2025-04-21 22:34:31,871 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 22:34:31,872 - WARNING - Ignoring wrong pointing object 122 0 (offset 0)
+2025-04-21 22:34:33,043 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:33,655 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:34,350 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:35,063 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:35,078 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 22:34:35,079 - WARNING - Ignoring wrong pointing object 34 0 (offset 0)
+2025-04-21 22:34:35,080 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 22:34:35,081 - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2025-04-21 22:34:35,675 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:35,690 - WARNING - Ignoring wrong pointing object 124 0 (offset 0)
+2025-04-21 22:34:35,691 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 22:34:35,692 - WARNING - Ignoring wrong pointing object 172 0 (offset 0)
+2025-04-21 22:34:36,333 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:36,346 - WARNING - Ignoring wrong pointing object 81 0 (offset 0)
+2025-04-21 22:34:36,347 - WARNING - Ignoring wrong pointing object 183 0 (offset 0)
+2025-04-21 22:34:37,675 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:38,366 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:39,078 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:34:39,752 - ERROR - Error generating rationale: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-04-21 22:52:52,277 - INFO - Successfully imported f1_score from sklearn.metrics
+2025-04-21 22:52:52,289 - INFO - Tester initialized
+2025-04-21 22:52:52,289 - INFO - Preparing test set...
+2025-04-21 22:52:52,294 - INFO - Prepared test set with 84 papers
+2025-04-21 22:52:52,294 - INFO - Setting up recommender...
+2025-04-21 22:52:52,604 - INFO - Initializing sentence transformer model...
+2025-04-21 22:52:52,618 - INFO - Use pytorch device_name: mps
+2025-04-21 22:52:52,618 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 22:52:57,005 - INFO - Setting up ChromaDB...
+2025-04-21 22:52:57,101 - INFO - Retrieved existing collection: test_papers_collection
+2025-04-21 22:52:57,118 - INFO - Initialization complete
+2025-04-21 22:52:57,119 - INFO - Processing papers from TMLR
+2025-04-21 22:53:13,765 - INFO - Successfully imported f1_score from sklearn.metrics
+2025-04-21 22:53:21,588 - INFO - Tester initialized
+2025-04-21 22:53:21,615 - INFO - Preparing test set...
+2025-04-21 22:53:21,630 - INFO - Prepared test set with 84 papers
+2025-04-21 22:53:21,631 - INFO - Setting up recommender...
+2025-04-21 22:53:21,634 - INFO - Initializing sentence transformer model...
+2025-04-21 22:53:21,644 - INFO - Use pytorch device_name: mps
+2025-04-21 22:53:21,645 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-21 22:53:24,861 - INFO - Setting up ChromaDB...
+2025-04-21 22:53:24,873 - INFO - Retrieved existing collection: test_papers_collection
+2025-04-21 22:53:24,874 - INFO - Initialization complete
+2025-04-21 22:53:24,875 - INFO - Processing papers from TMLR
+2025-04-21 22:53:31,383 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/TMLR/3542_ALTA_Compiler_Based_Analy.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 22:53:31,384 - WARNING - Skipping 3542_ALTA_Compiler_Based_Analy.pdf - no text extracted
+2025-04-21 22:55:24,699 - ERROR - Error processing 3706_Long_Short_Term_Imputer_H.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 22:56:38,018 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 22:56:38,020 - WARNING - Ignoring wrong pointing object 277 0 (offset 0)
+2025-04-21 22:56:38,020 - WARNING - Ignoring wrong pointing object 288 0 (offset 0)
+2025-04-21 22:56:38,020 - WARNING - Ignoring wrong pointing object 298 0 (offset 0)
+2025-04-21 22:58:06,892 - INFO - Processing papers from cvpr
+2025-04-21 23:00:50,321 - INFO - Processing papers from emnlp
+2025-04-21 23:03:55,582 - INFO - Processing papers from neurips
+2025-04-21 23:03:59,679 - WARNING - Ignoring wrong pointing object 49 0 (offset 0)
+2025-04-21 23:03:59,679 - WARNING - Ignoring wrong pointing object 96 0 (offset 0)
+2025-04-21 23:03:59,680 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 23:04:01,534 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 23:04:01,535 - WARNING - Ignoring wrong pointing object 139 0 (offset 0)
+2025-04-21 23:04:01,536 - WARNING - Ignoring wrong pointing object 168 0 (offset 0)
+2025-04-21 23:04:36,111 - WARNING - Skipping NeurIPS-2022-predictive-coding-beyond-gaussian-distributions-Paper-Conference.pdf - no text extracted
+2025-04-21 23:04:48,925 - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-04-21 23:04:48,927 - WARNING - Ignoring wrong pointing object 44 0 (offset 0)
+2025-04-21 23:04:48,928 - WARNING - Ignoring wrong pointing object 111 0 (offset 0)
+2025-04-21 23:04:48,928 - WARNING - Ignoring wrong pointing object 113 0 (offset 0)
+2025-04-21 23:04:52,653 - ERROR - Error processing NeurIPS-2022-pre-trained-adversarial-perturbations-Paper-Conference.pdf: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+2025-04-21 23:04:52,657 - WARNING - Ignoring wrong pointing object 81 0 (offset 0)
+2025-04-21 23:04:52,658 - WARNING - Ignoring wrong pointing object 183 0 (offset 0)
+2025-04-21 23:04:56,451 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 23:04:56,452 - WARNING - Ignoring wrong pointing object 59 0 (offset 0)
+2025-04-21 23:04:56,452 - WARNING - Ignoring wrong pointing object 62 0 (offset 0)
+2025-04-21 23:04:56,453 - WARNING - Ignoring wrong pointing object 158 0 (offset 0)
+2025-04-21 23:04:58,900 - WARNING - Ignoring wrong pointing object 55 0 (offset 0)
+2025-04-21 23:04:58,900 - WARNING - Ignoring wrong pointing object 79 0 (offset 0)
+2025-04-21 23:04:58,901 - WARNING - Ignoring wrong pointing object 160 0 (offset 0)
+2025-04-21 23:04:59,803 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 23:04:59,804 - WARNING - Ignoring wrong pointing object 33 0 (offset 0)
+2025-04-21 23:04:59,805 - WARNING - Ignoring wrong pointing object 102 0 (offset 0)
+2025-04-21 23:04:59,805 - WARNING - Ignoring wrong pointing object 173 0 (offset 0)
+2025-04-21 23:04:59,806 - WARNING - Ignoring wrong pointing object 181 0 (offset 0)
+2025-04-21 23:04:59,806 - WARNING - Ignoring wrong pointing object 215 0 (offset 0)
+2025-04-21 23:04:59,807 - WARNING - Ignoring wrong pointing object 283 0 (offset 0)
+2025-04-21 23:04:59,807 - WARNING - Ignoring wrong pointing object 361 0 (offset 0)
+2025-04-21 23:05:03,243 - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-04-21 23:05:03,243 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 23:05:03,244 - WARNING - Ignoring wrong pointing object 25 0 (offset 0)
+2025-04-21 23:05:03,244 - WARNING - Ignoring wrong pointing object 29 0 (offset 0)
+2025-04-21 23:05:13,604 - WARNING - Ignoring wrong pointing object 124 0 (offset 0)
+2025-04-21 23:05:13,605 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 23:05:13,605 - WARNING - Ignoring wrong pointing object 172 0 (offset 0)
+2025-04-21 23:05:15,407 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 23:05:15,407 - WARNING - Ignoring wrong pointing object 34 0 (offset 0)
+2025-04-21 23:05:15,408 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 23:05:15,408 - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2025-04-21 23:05:30,851 - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2025-04-21 23:05:30,853 - WARNING - Ignoring wrong pointing object 63 0 (offset 0)
+2025-04-21 23:05:30,853 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 23:05:30,854 - WARNING - Ignoring wrong pointing object 122 0 (offset 0)
+2025-04-21 23:05:50,664 - WARNING - Ignoring wrong pointing object 179 0 (offset 0)
+2025-04-21 23:05:50,666 - WARNING - Ignoring wrong pointing object 187 0 (offset 0)
+2025-04-21 23:05:50,667 - WARNING - Ignoring wrong pointing object 221 0 (offset 0)
+2025-04-21 23:05:50,669 - WARNING - Ignoring wrong pointing object 275 0 (offset 0)
+2025-04-21 23:05:59,174 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/publishable/neurips/NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 23:05:59,176 - WARNING - Skipping NeurIPS-2022-br-snis-bias-reduced-self-normalized-importance-sampling-Paper-Conference.pdf - no text extracted
+2025-04-21 23:06:04,466 - WARNING - Ignoring wrong pointing object 14 0 (offset 0)
+2025-04-21 23:06:04,469 - WARNING - Ignoring wrong pointing object 83 0 (offset 0)
+2025-04-21 23:06:04,470 - WARNING - Ignoring wrong pointing object 90 0 (offset 0)
+2025-04-21 23:06:04,472 - WARNING - Ignoring wrong pointing object 162 0 (offset 0)
+2025-04-21 23:06:04,475 - WARNING - Ignoring wrong pointing object 281 0 (offset 0)
+2025-04-21 23:06:04,477 - WARNING - Ignoring wrong pointing object 284 0 (offset 0)
+2025-04-21 23:06:04,479 - WARNING - Ignoring wrong pointing object 321 0 (offset 0)
+2025-04-21 23:06:04,480 - WARNING - Ignoring wrong pointing object 329 0 (offset 0)
+2025-04-21 23:06:04,481 - WARNING - Ignoring wrong pointing object 333 0 (offset 0)
+2025-04-21 23:06:04,482 - WARNING - Ignoring wrong pointing object 341 0 (offset 0)
+2025-04-21 23:06:04,484 - WARNING - Ignoring wrong pointing object 344 0 (offset 0)
+2025-04-21 23:06:04,485 - WARNING - Ignoring wrong pointing object 347 0 (offset 0)
+2025-04-21 23:06:04,486 - WARNING - Ignoring wrong pointing object 350 0 (offset 0)
+2025-04-21 23:06:08,649 - WARNING - Ignoring wrong pointing object 92 0 (offset 0)
+2025-04-21 23:06:08,651 - WARNING - Ignoring wrong pointing object 143 0 (offset 0)
+2025-04-21 23:07:39,012 - WARNING - Ignoring wrong pointing object 18 0 (offset 0)
+2025-04-21 23:07:39,016 - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-04-21 23:07:43,179 - WARNING - Ignoring wrong pointing object 56 0 (offset 0)
+2025-04-21 23:07:43,180 - WARNING - Ignoring wrong pointing object 84 0 (offset 0)
+2025-04-21 23:07:43,181 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 23:07:43,182 - WARNING - Ignoring wrong pointing object 120 0 (offset 0)
+2025-04-21 23:07:43,187 - WARNING - Ignoring wrong pointing object 320 0 (offset 0)
+2025-04-21 23:07:43,188 - WARNING - Ignoring wrong pointing object 330 0 (offset 0)
+2025-04-21 23:07:43,189 - WARNING - Ignoring wrong pointing object 368 0 (offset 0)
+2025-04-21 23:07:43,191 - WARNING - Ignoring wrong pointing object 699 0 (offset 0)
+2025-04-21 23:07:43,192 - WARNING - Ignoring wrong pointing object 768 0 (offset 0)
+2025-04-21 23:07:43,193 - WARNING - Ignoring wrong pointing object 770 0 (offset 0)
+2025-04-21 23:08:03,454 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 23:08:03,456 - WARNING - Ignoring wrong pointing object 137 0 (offset 0)
+2025-04-21 23:08:03,457 - WARNING - Ignoring wrong pointing object 141 0 (offset 0)
+2025-04-21 23:08:03,457 - WARNING - Ignoring wrong pointing object 159 0 (offset 0)
+2025-04-21 23:08:03,458 - WARNING - Ignoring wrong pointing object 220 0 (offset 0)
+2025-04-21 23:08:03,459 - WARNING - Ignoring wrong pointing object 223 0 (offset 0)
+2025-04-21 23:08:03,460 - WARNING - Ignoring wrong pointing object 225 0 (offset 0)
+2025-04-21 23:08:09,792 - WARNING - Ignoring wrong pointing object 37 0 (offset 0)
+2025-04-21 23:08:09,793 - WARNING - Ignoring wrong pointing object 46 0 (offset 0)
+2025-04-21 23:08:29,760 - INFO - Processing papers from non-publishable
+2025-04-21 23:14:17,773 - WARNING - Multiple definitions in dictionary at byte 0xc217 for key /Type
+2025-04-21 23:17:36,551 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_215.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 23:17:36,574 - WARNING - Skipping paper_215.pdf - no text extracted
+2025-04-21 23:17:37,047 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_214.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 23:17:37,048 - WARNING - Skipping paper_214.pdf - no text extracted
+2025-04-21 23:19:37,106 - ERROR - Error processing PDF /Users/sparshkarna/dev/DataScienceProject/papers/non-publishable/paper_231.pdf: cannot access local variable 'v' where it is not associated with a value
+2025-04-21 23:19:37,111 - WARNING - Skipping paper_231.pdf - no text extracted
+2025-04-21 23:33:54,446 - INFO - Database Statistics:
+2025-04-21 23:33:54,460 - INFO - Total papers processed: 810
+2025-04-21 23:33:54,461 - INFO - Number of conferences: 5
+2025-04-21 23:33:54,462 - INFO - Publishable papers: 418
+2025-04-21 23:33:54,463 - INFO - Non-publishable papers: 392
+2025-04-21 23:33:54,464 - INFO - Conferences: cvpr, neurips, non-publishable, TMLR, emnlp
+2025-04-21 23:33:54,467 - INFO - Recommender setup complete
+2025-04-21 23:33:54,468 - INFO - Starting evaluation...
+2025-04-21 23:35:59,328 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-04-21 23:36:00,587 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-04-21 23:36:01,363 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-04-21 23:36:02,184 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-04-21 23:36:03,156 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-04-21 23:36:03,880 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-04-21 23:36:07,124 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-04-21 23:36:10,171 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-04-21 23:36:43,230 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-04-21 23:36:44,521 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-04-21 23:36:45,610 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-04-21 23:36:47,039 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-04-21 23:36:48,011 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-04-21 23:36:48,773 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-04-21 23:36:52,138 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-04-21 23:36:54,806 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-04-21 23:36:56,374 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-04-21 23:36:57,093 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-04-21 23:36:59,747 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-04-21 23:37:00,588 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-04-21 23:37:00,602 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 23:37:00,604 - WARNING - Ignoring wrong pointing object 139 0 (offset 0)
+2025-04-21 23:37:00,605 - WARNING - Ignoring wrong pointing object 168 0 (offset 0)
+2025-04-21 23:37:01,547 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-04-21 23:37:02,653 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-04-21 23:37:02,665 - WARNING - Ignoring wrong pointing object 20 0 (offset 0)
+2025-04-21 23:37:02,666 - WARNING - Ignoring wrong pointing object 59 0 (offset 0)
+2025-04-21 23:37:02,667 - WARNING - Ignoring wrong pointing object 62 0 (offset 0)
+2025-04-21 23:37:02,668 - WARNING - Ignoring wrong pointing object 158 0 (offset 0)
+2025-04-21 23:37:03,512 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-04-21 23:37:04,417 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-04-21 23:37:06,436 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-04-21 23:37:07,440 - ERROR - Error generating rationale: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-04-21 23:37:41,764 - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2025-04-21 23:37:41,769 - WARNING - Ignoring wrong pointing object 63 0 (offset 0)
+2025-04-21 23:37:41,770 - WARNING - Ignoring wrong pointing object 107 0 (offset 0)
+2025-04-21 23:37:41,771 - WARNING - Ignoring wrong pointing object 122 0 (offset 0)
+2025-04-21 23:37:50,065 - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2025-04-21 23:37:50,068 - WARNING - Ignoring wrong pointing object 34 0 (offset 0)
+2025-04-21 23:37:50,069 - WARNING - Ignoring wrong pointing object 116 0 (offset 0)
+2025-04-21 23:37:50,070 - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2025-04-21 23:37:51,915 - WARNING - Ignoring wrong pointing object 124 0 (offset 0)
+2025-04-21 23:37:51,917 - WARNING - Ignoring wrong pointing object 128 0 (offset 0)
+2025-04-21 23:37:51,918 - WARNING - Ignoring wrong pointing object 172 0 (offset 0)
+2025-04-21 23:37:53,616 - WARNING - Ignoring wrong pointing object 81 0 (offset 0)
+2025-04-21 23:37:53,617 - WARNING - Ignoring wrong pointing object 183 0 (offset 0)

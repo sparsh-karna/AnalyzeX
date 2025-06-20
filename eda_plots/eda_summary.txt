@@ -1,0 +1,85 @@
+Dataset Info:
+None
+
+Summary Statistics:
+       publishable  flesch_kincaid_grade_level  gunning_fog_index  dale_chall  \
+count   804.000000                  804.000000         804.000000  804.000000   
+mean      0.516169                   10.363308           9.044502    7.253296   
+std       0.500050                    1.463515           1.258004    0.834965   
+min       0.000000                    0.000000           0.000000    0.000000   
+25%       0.000000                    9.500000           8.357500    6.790000   
+50%       1.000000                   10.400000           8.930000    7.250000   
+75%       1.000000                   11.200000           9.602500    7.680000   
+max       1.000000                   18.100000          20.900000   13.000000   
+
+       smog_index  table_count  table_citation_presence  table_density  \
+count  804.000000   804.000000               804.000000     804.000000   
+mean    12.703483    13.148010                 0.675373       0.806808   
+std      1.205452    26.193727                 0.468527       1.471028   
+min      0.000000     0.000000                 0.000000       0.000000   
+25%     12.200000     2.000000                 0.000000       0.142857   
+50%     12.700000     6.000000                 1.000000       0.433036   
+75%     13.300000    12.000000                 1.000000       0.900000   
+max     15.900000   304.000000                 1.000000      20.250000   
+
+       no_of_columns_per_page_of_table  title_abstract_consistency  \
+count                       804.000000                  804.000000   
+mean                          5.141170                    0.454612   
+std                           3.439625                    0.325093   
+min                           0.000000                    0.000000   
+25%                           3.000000                    0.000000   
+50%                           4.797619                    0.543793   
+75%                           6.750000                    0.739761   
+max                          23.875000                    0.916669   
+
+       presence_of_opposite_number_of_sections  reference_count  \
+count                               804.000000       804.000000   
+mean                                  1.900498        37.808458   
+std                                   1.217371        51.831277   
+min                                   0.000000         0.000000   
+25%                                   1.000000         0.000000   
+50%                                   2.000000        17.000000   
+75%                                   2.000000        67.250000   
+max                                   8.000000       732.000000   
+
+       figures_to_text_ratio  equation_density  technical_jargon_score  \
+count             804.000000        804.000000              804.000000   
+mean                0.004287          0.004830                0.010045   
+std                 0.021671          0.005994                0.007592   
+min                 0.000000          0.000000                0.000000   
+25%                 0.000000          0.001182                0.004370   
+50%                 0.000233          0.002878                0.008344   
+75%                 0.001524          0.006470                0.013950   
+max                 0.414541          0.085400                0.049905   
+
+       novelty_score  interdisciplinary_impact_score  
+count     804.000000                      804.000000  
+mean        0.506244                        0.108589  
+std         0.080381                        0.080180  
+min         0.259752                        0.000000  
+25%         0.455864                        0.045672  
+50%         0.513936                        0.089577  
+75%         0.565619                        0.151049  
+max         0.733589                        0.426180  
+
+Missing Values:
+publishable                                0
+flesch_kincaid_grade_level                 0
+gunning_fog_index                          0
+dale_chall                                 0
+smog_index                                 0
+table_count                                0
+table_citation_presence                    0
+table_density                              0
+no_of_columns_per_page_of_table            0
+title_abstract_consistency                 0
+presence_of_opposite_number_of_sections    0
+reference_count                            0
+figures_to_text_ratio                      0
+equation_density                           0
+technical_jargon_score                     0
+novelty_score                              0
+interdisciplinary_impact_score             0
+dtype: int64
+
+Publishable Papers: 415, Non-Publishable Papers: 389
